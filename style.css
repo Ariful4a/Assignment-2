@@ -122,17 +122,19 @@ header {
 }
 
 .main-banner .banner-content .left-side .img {
-	display: flex;
-	justify-content: end;
-	align-items: end;
-	height: 100%;
-	align-content: end;
-	margin-top: 35px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    height: 100%;
+    align-content: end;
+    margin-top: 35px;
 }
-.main-banner .banner-content .left-side .img img{
+
+.main-banner .banner-content .left-side .img img {
     width: 100%;
 }
-.main-banner .banner-content .left-side h1{
+
+.main-banner .banner-content .left-side h1 {
     font-size: 70px;
     font-weight: 900;
     padding-bottom: 22px;
@@ -177,45 +179,46 @@ header {
     border: 1px solid rgb(230, 83, 60);
 }
 
-.main-banner .banner-content .right-side{
+.main-banner .banner-content .right-side {
     text-align: center;
 }
 
-.main-banner .banner-content .right-side .img{
+.main-banner .banner-content .right-side .img {
     position: relative;
     margin-top: 50px;
 }
 
 .main-banner .banner-content .right-side .text-content {
-	position: absolute;
-	top: 120px;
-	width: 193px;
-	height: 98px;
-	border: 1px solid rgba(255, 255, 255, 0.1);
-	border-radius: 12px;
-	backdrop-filter: blur(20px);
-	background: rgba(255, 255, 255, 0.1);
-	color: var(--white-color);
-	right: 12px;
-	align-items: center;
-	align-content: center;
+    position: absolute;
+    top: 120px;
+    width: 193px;
+    height: 98px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    color: var(--white-color);
+    right: 12px;
+    align-items: center;
+    align-content: center;
 }
 
 .main-banner .banner-content .right-side .text-content2 {
-	position: absolute;
-	display: flex;
-	gap: 15px;
-	align-items: center;
-	width: 193px;
-	height: 98px;
-	border: 1px solid rgba(255, 255, 255, 0.1);
-	border-radius: 12px;
-	backdrop-filter: blur(20px);
-	background: rgba(255, 255, 255, 0.1);
-	color: var(--white-color);
-	bottom: 65px;
-	left: -27px;
+    position: absolute;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    width: 193px;
+    height: 98px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    color: var(--white-color);
+    bottom: 65px;
+    left: -27px;
 }
+
 /* banner section end  */
 /* this header section design end  */
 
@@ -284,96 +287,112 @@ header {
 
 /* main calculator section design start  */
 
-.main-calculator{
+.main-calculator {
     margin-top: 70px;
 }
-.main-calculator .container .calculator-content{
-display: flex;
-gap: 140px;
+
+.main-calculator .container .calculator-content {
+    display: flex;
+    gap: 140px;
 
 }
 
-.main-calculator .container .calculator-content .left-side h2{
+.main-calculator .container .calculator-content .left-side h2 {
     font-size: 38px;
     font-weight: 900;
-padding-bottom: 80px;
+    padding-bottom: 80px;
 }
 
-.main-calculator .container .calculator-content .left-side table{
+.main-calculator .container .calculator-content .left-side table {
     border-collapse: collapse;
     width: 400px;
 }
 
 
-.main-calculator .container .calculator-content .left-side table th{
+.main-calculator .container .calculator-content .left-side table th {
     font-size: 20px;
     font-weight: 500;
 }
-.main-calculator .container .calculator-content table, th, td{
+
+.main-calculator .container .calculator-content table,
+th,
+td {
     border: 1px solid var(--gray-color);
 
 }
 
-.main-calculator .container .calculator-content .left-side table th, td{
+.main-calculator .container .calculator-content .left-side table th,
+td {
     padding: 20px;
     text-align: left;
 
 }
 
-.main-calculator .container .calculator-content .right-side .hading-text{
+.main-calculator .container .calculator-content .right-side .hading-text {
     margin-bottom: 40px;
 }
-.main-calculator .container .calculator-content .right-side .hading-text h2{
+
+.main-calculator .container .calculator-content .right-side .hading-text h2 {
     font-size: 40px;
     font-weight: 900;
-padding-bottom: 20px;
+    padding-bottom: 20px;
 }
 
 /* input section  design start  */
-.main-calculator{
+.main-calculator {
     background: rgb(34, 34, 34);
     margin-top: 100px;
     margin-bottom: 70px;
     padding: 55px 0;
 }
-.main-calculator .container .hading{
+
+.main-calculator .container .hading {
     margin-bottom: 100px;
 }
-.main-calculator .container .calculator-content .right-side form input, select,option{
-    color: var(--black-color);
+
+.main-calculator .container .calculator-content .right-side form input,
+select,
+option, .select {
+    background: rgba(255, 255, 255, 0.1);
 }
-.main-calculator .container .calculator-content .right-side form .input1{
+
+.main-calculator .container .calculator-content .right-side form .input1 {
     display: flex;
     gap: 15px;
 }
 
-.main-calculator .container .calculator-content .right-side form .input1 input{
+.main-calculator .container .calculator-content .right-side form .input1 input {
     width: 100%;
     padding: 20px;
     border-radius: 12px;
     box-sizing: border-box;
     margin-bottom: 15px;
+    border-radius: 8px;
+
 }
 
-.main-calculator .container .calculator-content .right-side form .input2{
+.main-calculator .container .calculator-content .right-side form .input2 {
     display: flex;
     gap: 15px;
 
 }
-.main-calculator .container .calculator-content .right-side form .input2 input, select{
-   width: 100%;
-   padding: 20px;
-   border-radius: 12px;
-   box-sizing: border-box;
+
+.main-calculator .container .calculator-content .right-side form .input2 input,
+select {
+    width: 100%;
+    padding: 20px;
+    border-radius: 12px;
+    box-sizing: border-box;
 
 }
-.main-calculator .container .calculator-content .right-side form .select{
+
+.main-calculator .container .calculator-content .right-side form .select {
     padding: 20px;
     margin-top: 15px;
     border-radius: 12px;
 }
 
-.main-calculator .container .calculator-content .right-side form button{
+.main-calculator .container .calculator-content .right-side form button {
     background-color: rgb(230, 83, 60);
     padding: 20px 20px;
     width: 200px;
@@ -384,39 +403,42 @@ padding-bottom: 20px;
 }
 
 /* meet section design start  */
-.meet-section{
+.meet-section {
     margin-top: 70px;
-  
+
 }
+
 .meet-section .meet-gallery {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
 }
 
-.meet-section .container{
+.meet-section .container {
     background: rgb(34, 34, 34);
     margin-top: 100px;
     margin-bottom: 70px;
     padding: 20px;
     border-radius: 10px;
 }
- .meet-gallery .img{
+
+.meet-gallery .img {
     position: relative;
     overflow: hidden;
 }
-.meet-section .meet-gallery .img img{
+
+.meet-section .meet-gallery .img img {
     width: 100%;
     height: 300px;
     transition: .4s ease-in;
     border-radius: 10px;
 }
 
-.meet-section .meet-gallery .img:hover img{
+.meet-section .meet-gallery .img:hover img {
     transform: scale(1.2);
 }
 
-.meet-section .meet-gallery .img .img-text{
+.meet-section .meet-gallery .img .img-text {
     position: absolute;
     left: 20px;
     bottom: 20px;
@@ -425,5 +447,48 @@ padding-bottom: 20px;
 /* Main section design end  */
 
 /* footer section design start  */
+footer{
+    background: rgba(255, 255, 255, 0.1);
+    padding-top: 60px;
+}
+footer .footer-content {
+    display: flex;
+    justify-content: space-between;
+}
 
+footer .footer-content .footer-box a {
+    color: rgb(230, 83, 60);
+    font-family: Inter;
+    font-size: 70px;
+    font-weight: 800;
+    display: inline-block;
+    margin-bottom: 20px;
+    font-style: italic;
+
+}
+
+footer .footer-content .footer-box{
+    width: 300px;
+}
+footer .footer-content .footer-box2 h2{
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+footer .footer-content .footer-box2 p{
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+footer hr{
+    margin-top: 70px;
+}
+/* bottom footer  */
+.bottom-footer .container .bottom p{
+   font-size: 20px;
+   text-align: center;
+   padding: 30px 0;
+ 
+}
 /* footer section design end  */
