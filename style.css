@@ -7,7 +7,7 @@
 }
 
 .container {
-    max-width: 1100px;
+    max-width: 1060px;
     margin: 0 auto;
 }
 
@@ -57,7 +57,7 @@ body {
 
 header {
     background: linear-gradient(to right, #000000, #434343);
-    height: 700px;
+    height: 715px;
     color: var(--white-color);
 }
 
@@ -112,40 +112,45 @@ header {
 }
 
 /* banner section design start  */
-.main-banner .container .banner-content {
-    display: flex;
+
+.main-banner .banner-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 60px;
     align-items: center;
-    height: 100%;
+
 }
 
-.main-banner .container .banner-content .left-side {
-    position: absolute;
-    top: 199px;
+.main-banner .banner-content .left-side .img {
+	display: flex;
+	justify-content: end;
+	align-items: end;
+	height: 100%;
+	align-content: end;
+	margin-top: 35px;
 }
-
-.main-banner .container .banner-content .left-side h1 {
+.main-banner .banner-content .left-side .img img{
+    width: 100%;
+}
+.main-banner .banner-content .left-side h1{
     font-size: 70px;
     font-weight: 900;
     padding-bottom: 22px;
     line-height: 85px;
 }
 
-.main-banner .container .banner-content .left-side h1 span {
+
+.main-banner .banner-content .left-side h1 span {
     font-family: 'Allura', cursive;
     font-size: 7rem;
 
 }
 
-.main-banner .container .banner-content .left-side p {
-    width: 490px;
-    color: var(--gray-color);
-}
-
-.main-banner .container .banner-content .left-side .btn {
+.main-banner .banner-content .left-side .btn {
     margin-top: 40px;
 }
 
-.main-banner .container .banner-content .left-side .btn a {
+.main-banner .banner-content .left-side .btn a {
     padding: 10px 30px;
     background-color: rgb(230, 83, 60);
     color: var(--white-color);
@@ -153,12 +158,12 @@ header {
     border: 1px solid rgb(230, 83, 60);
 }
 
-.main-banner .container .banner-content .left-side .btn a:hover {
+.main-banner .banner-content .left-side .btn a:hover {
     border: 1px solid var(--white-color);
     background-color: transparent;
 }
 
-.main-banner .container .banner-content .left-side .btn a:last-child {
+.main-banner .banner-content .left-side .btn a:last-child {
     background-color: transparent;
     box-sizing: border-box;
     border: 1px solid var(--white-color);
@@ -167,64 +172,50 @@ header {
 
 }
 
-.main-banner .container .banner-content .left-side .btn a:last-child:hover {
+.main-banner .banner-content .left-side .btn a:last-child:hover {
     background-color: rgb(230, 83, 60);
     border: 1px solid rgb(230, 83, 60);
 }
 
-/* banner content right side design  */
-.main-banner .container .banner-content .right-side {
-    position: absolute;
-    width: 349px;
-    height: 580px;
-    left: 920px;
-    top: 120px;
+.main-banner .banner-content .right-side{
+    text-align: center;
 }
 
-.main-banner .container .banner-content .right-side .text-content {
-    width: 193px;
-    height: 98px;
-    box-sizing: border-box;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 12px;
-    backdrop-filter: blur(20px);
-    background: rgba(255, 255, 255, 0.1);
-    color: var(--white-color);
-    margin-top: -473px;
-    margin-left: 220px;
-    padding-left: 19px;
+.main-banner .banner-content .right-side .img{
+    position: relative;
+    margin-top: 50px;
 }
 
-
-.main-banner .container .banner-content .right-side .text-content h2 {
-    margin-top: 22px;
+.main-banner .banner-content .right-side .text-content {
+	position: absolute;
+	top: 120px;
+	width: 193px;
+	height: 98px;
+	border: 1px solid rgba(255, 255, 255, 0.1);
+	border-radius: 12px;
+	backdrop-filter: blur(20px);
+	background: rgba(255, 255, 255, 0.1);
+	color: var(--white-color);
+	right: 12px;
+	align-items: center;
+	align-content: center;
 }
 
-.main-banner .container .banner-content .right-side .text-content2 {
-    display: flex;
-    gap: 15px;
-    align-items: center;
-    width: 193px;
-    height: 98px;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 12px;
-    backdrop-filter: blur(20px);
-    background: rgba(255, 255, 255, 0.1);
-    color: var(--white-color);
-    margin-top: 223px;
-    margin-left: -108px;
-    padding-left: 19px;
-
+.main-banner .banner-content .right-side .text-content2 {
+	position: absolute;
+	display: flex;
+	gap: 15px;
+	align-items: center;
+	width: 193px;
+	height: 98px;
+	border: 1px solid rgba(255, 255, 255, 0.1);
+	border-radius: 12px;
+	backdrop-filter: blur(20px);
+	background: rgba(255, 255, 255, 0.1);
+	color: var(--white-color);
+	bottom: 65px;
+	left: -27px;
 }
-
-.main-banner .container .banner-content .right-side .text-content2 .circle {
-    width: 40px;
-    height: 40px;
-    background: rgb(230, 83, 60);
-    border-radius: 50%;
-
-}
-
 /* banner section end  */
 /* this header section design end  */
 
@@ -261,7 +252,7 @@ header {
     justify-content: space-between;
     border-radius: 18px;
     background: rgb(34, 34, 34);
-    padding: 30px;
+    padding: 30px 30px 25px;
 }
 
 
