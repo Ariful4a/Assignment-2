@@ -55,13 +55,88 @@
 
 }
 @media screen and (max-width: 576px){
+    .main-header{
+        height: auto;
+    }
+    .main-header .container .navbar .right-side ul {
+        display: none;
+    }
 
+    .main-header .container .navbar .right-side i{
+        display: block;
+        font-size: 30px;
+    }
 
+    .main-banner .banner-content {
+        display: block;
+  
+    }
+    .main-banner .banner-content .left-side h1 span {
+        font-size: 4rem;
+    }
 
+    .main-banner .banner-content .left-side h1 {
+        margin-top: 60px;
+        font-size: 55px;
+        line-height: 49px;
+    }
 
+    .main-banner .banner-content .left-side .btn a {
+        padding: 10px 39px;
+    }
 
+    .main-banner .banner-content .right-side .text-content2 {
+        left: 16px;
+    }
 
+/* changes your habits  */
+    .hading h2 {
+        font-size: 32px;
+    }
 
+    .main-habits .container .habits-content {
+        display: block;
+
+    }
+
+    /* run section start  */
+
+    .run-section .container .run-content {
+      flex-direction: column;
+      padding: 20px;
+   
+    }
+
+    .run-section .container .run-content .left-side .text h2 {
+        font-size: 32px;
+
+    }
+    .run-section .container .run-content .left-side .text p{
+        width: 372px;
+    }
+
+    .run-section .container .run-content .left-side .text a {
+        padding: 10px 147px;
+        margin-bottom: 30px;
+       
+    }
+
+    .trainer-section .main-trainings .box-1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .trainer-section .main-trainings .box-1 .img:nth-child(3){
+        display: none;
+    }
+       
+    .trainer-section .main-trainings .box-2 {
+        display: grid;
+        grid-template-columns: 185px 220px;
+    }
+    .trainer-section .main-trainings .box-2 .img:nth-child(3){
+        display: none;
+    }
+ 
 
 
 
