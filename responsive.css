@@ -137,13 +137,49 @@
         display: none;
     }
  
+    /* bmi clacolator section design start  */
+    .hading-2{
+        text-align: left;
+        padding: 0 20px;
+    }
 
+    .main-calculator {
+        margin-top: 50px;
+    }
+    .main-calculator .container .calculator-content {
+       flex-direction: column;
+    }
 
+    .main-calculator .container .calculator-content .left-side h2 {
+        font-size: 32px;
+        padding-bottom: 40px;
+    }
 
+    .main-calculator .container .calculator-content .left-side table {
+        width: 100%;
+    }
 
+    .main-calculator .container .calculator-content .right-side .hading-text h2 {
+        font-size: 32px;
+    }
 
+    /* meet section design start  */
+    .hading-3{
+        padding: 0 20px;
+    }
 
+    .meet-section .container {
+        margin-top: 0;
 
+    }
+
+    .meet-gallery .img {
+        margin-bottom: 20px;
+    }
+
+    .meet-section .meet-gallery {
+        display: block
+    }
 
 
 
