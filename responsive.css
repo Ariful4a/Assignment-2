@@ -1,59 +1,4 @@
-@media screen and (min-width: 993px){
-    
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-}
-
-@media screen and (min-width: 576px) and (max-width: 992px){
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-}
 @media screen and (max-width: 576px){
     .main-header{
         height: auto;
@@ -79,10 +24,6 @@
         margin-top: 60px;
         font-size: 50px;
         line-height: 49px;
-    }
-
-    .main-banner .banner-content .left-side .btn a {
-        padding: 10px 39px;
     }
 
     .main-banner .banner-content .right-side .text-content2 {
@@ -206,4 +147,17 @@ footer hr{
     margin-top: 10px;
 }
     
+}
+
+@media screen and (min-width: 350px) and (max-width: 450px){
+
+    .main-banner .banner-content .left-side .btn a {
+        padding: 10px 39px;
+        margin-top: 20px;
+        display: inline-block;
+    }
+
+    .main-banner .banner-content .left-side .btn a:last-child {
+        margin-left: 0px;
+    }
 }
