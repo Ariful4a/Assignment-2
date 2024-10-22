@@ -7,7 +7,7 @@
 }
 
 .container {
-    max-width: 1060px;
+    max-width: 1100px;
     margin: 0 auto;
 }
 
@@ -282,14 +282,105 @@ header {
     object-fit: cover;
 }
 
+/* main calculator section design start  */
+
+.main-calculator{
+    margin-top: 70px;
+}
+.main-calculator .container .calculator-content{
+display: flex;
+gap: 140px;
+
+}
+
+.main-calculator .container .calculator-content .left-side h2{
+    font-size: 38px;
+    font-weight: 900;
+padding-bottom: 80px;
+}
+
+.main-calculator .container .calculator-content .left-side table{
+    border-collapse: collapse;
+    width: 400px;
+}
 
 
+.main-calculator .container .calculator-content .left-side table th{
+    font-size: 20px;
+    font-weight: 500;
+}
+.main-calculator .container .calculator-content table, th, td{
+    border: 1px solid var(--gray-color);
 
+}
 
+.main-calculator .container .calculator-content .left-side table th, td{
+    padding: 20px;
+    text-align: left;
 
+}
 
+.main-calculator .container .calculator-content .right-side .hading-text{
+    margin-bottom: 40px;
+}
+.main-calculator .container .calculator-content .right-side .hading-text h2{
+    font-size: 40px;
+    font-weight: 900;
+padding-bottom: 20px;
+}
 
+/* input section  design start  */
+.main-calculator{
+    background: rgb(34, 34, 34);
+    margin-top: 100px;
+    padding: 55px 0;
+}
+.main-calculator .container .hading{
+    margin-bottom: 100px;
+}
+.main-calculator .container .calculator-content .right-side form input, select,option{
+    color: var(--black-color);
+}
+.main-calculator .container .calculator-content .right-side form .input1{
+    display: flex;
+    gap: 15px;
+}
 
+.main-calculator .container .calculator-content .right-side form .input1 input{
+    width: 100%;
+    padding: 20px;
+    border-radius: 12px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+.main-calculator .container .calculator-content .right-side form .input2{
+    display: flex;
+    gap: 15px;
+
+}
+.main-calculator .container .calculator-content .right-side form .input2 input, select{
+   width: 100%;
+   padding: 20px;
+   border-radius: 12px;
+   box-sizing: border-box;
+
+}
+.main-calculator .container .calculator-content .right-side form .select{
+    padding: 20px;
+    margin-top: 15px;
+    border-radius: 12px;
+}
+
+.main-calculator .container .calculator-content .right-side form button{
+    background-color: rgb(230, 83, 60);
+    padding: 20px 20px;
+    width: 200px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+}
 /* Main section design end  */
 
 /* footer section design start  */
