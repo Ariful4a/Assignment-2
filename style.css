@@ -333,6 +333,7 @@ padding-bottom: 20px;
 .main-calculator{
     background: rgb(34, 34, 34);
     margin-top: 100px;
+    margin-bottom: 70px;
     padding: 55px 0;
 }
 .main-calculator .container .hading{
@@ -381,6 +382,46 @@ padding-bottom: 20px;
     border-radius: 30px;
     font-size: 18px;
 }
+
+/* meet section design start  */
+.meet-section{
+    margin-top: 70px;
+  
+}
+.meet-section .meet-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.meet-section .container{
+    background: rgb(34, 34, 34);
+    margin-top: 100px;
+    margin-bottom: 70px;
+    padding: 20px;
+    border-radius: 10px;
+}
+ .meet-gallery .img{
+    position: relative;
+    overflow: hidden;
+}
+.meet-section .meet-gallery .img img{
+    width: 100%;
+    height: 300px;
+    transition: .4s ease-in;
+    border-radius: 10px;
+}
+
+.meet-section .meet-gallery .img:hover img{
+    transform: scale(1.2);
+}
+
+.meet-section .meet-gallery .img .img-text{
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+}
+
 /* Main section design end  */
 
 /* footer section design start  */
