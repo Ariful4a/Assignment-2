@@ -195,18 +195,18 @@ header {
 }
 
 .main-banner .banner-content .right-side .text-content {
-    position: absolute;
-    top: 120px;
-    width: 193px;
-    height: 98px;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 12px;
-    backdrop-filter: blur(20px);
-    background: rgba(255, 255, 255, 0.1);
-    color: var(--white-color);
-    right: 12px;
-    align-items: center;
-    align-content: center;
+	position: absolute;
+	top: 208px;
+	width: 193px;
+	height: 98px;
+	border: 1px solid rgba(255, 255, 255, 0.1);
+	border-radius: 12px;
+	backdrop-filter: blur(20px);
+	background: rgba(255, 255, 255, 0.1);
+	color: var(--white-color);
+	right: 12px;
+	align-items: center;
+	align-content: center;
 }
 
 .main-banner .banner-content .right-side .text-content2 {

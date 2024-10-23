@@ -27,7 +27,12 @@
     }
 
     .main-banner .banner-content .right-side .text-content2 {
-        left: 16px;
+        left: 6px;
+    }
+    .main-banner .banner-content .right-side .text-content {
+        top: 162px;
+        right: 2px;
+   
     }
 
 /* changes your habits  */
